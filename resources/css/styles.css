@@ -1,0 +1,157 @@
+
+* {
+    box-sizing: border-box;
+}
+html {
+    font-size: 18px;
+}
+body {
+    text-align: center;
+}
+h1 {
+    font-family: 'Poppins', sans-serif;
+    font-size: 40px;
+    color: #FFB747;
+}
+h2 {
+    font-family: 'Raleway', sans-serif;
+    font-size: 32px;
+    color:#072D4D;
+}
+h3, figcaption {
+    font-family: 'Raleway', sans-serif;
+    font-size: 18px;
+}
+p {
+    font-family: 'Roboto Slab', serif;
+}
+li {
+    font-size: 20px;
+}
+
+.header-content {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 100%;
+}
+.header-content ul {
+    list-style: none;
+}
+.header-content li {
+    display: inline-block;
+    padding: 10px 10px;
+}
+.header-content a {
+    text-decoration: none;
+    color: #072D4D;
+}
+.header-nav-desktop {
+    display: block;
+}
+.header-nav-mobile {
+    display: none;
+}
+@media only screen and (max-width:515px){
+    .header-nav-mobile {
+    display: block;
+    
+    }
+    .header-nav-desktop {
+        display:none;
+    }
+}
+
+.header-hero {
+    display: flex;
+    background-image: url('../images/header-pic.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 350px;
+    align-items: flex-end;
+    justify-content: center;
+}
+.header-hero .content{
+    display:block;
+    width: 100%;
+    line-height: 1rem;
+    padding: 0 2rem 2rem 2rem;
+}
+.header-hero p {
+    color:white;
+    font-size: 0.88rem;
+}
+@media only screen and (max-width:750px){
+    .header-hero {
+        background-image: none;
+        background-color:#072D4D;
+        align-items: center;
+    }
+
+}
+
+.services-content {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 4rem 5%;
+}
+.services-item {
+    flex: 1;
+    padding: 0 2rem 0 2rem;
+    margin: 0 1.25rem;
+}
+.services-item img {
+    width: 200px;
+    height: auto;
+    padding: 0.55rem;
+    margin-left: auto;
+    margin-right: auto;
+    justify-content: space-between;
+}
+.service-item h3 {
+    display: block;
+    font-weight: bold;
+    text-align: center;
+}
+
+#team {
+    background-color: #FFB747;
+    padding-top: 2rem;
+    color: white;
+}
+#team h2 {
+    color: white;
+}
+.team-content {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding: 2rem 1rem;
+}
+.team-item {
+    flex: 1;
+
+}
+.team-item img {
+    width: 200px;
+    height: 150px;
+}
+
+footer {
+    background-color:#61B8FF;
+    padding: 0.5rem 0;
+}
+footer h2 {
+    display: block;
+    color: white;
+}
+footer p {
+    display: flex;
+    flex: 1;
+    justify-content: center;
+    line-height: 1rem;
+    font-size: 0.88rem;
+    color: white;
+}
