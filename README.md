@@ -2,11 +2,11 @@
 
 CodeCademy front-end engineer course task. The purpose of this assignment was to create a responsive website for an imaginary service. The styling and content of the page were not defined. This exercise gave me good practice with making the website responsive to different screen sizes.
 
-view in: https://heini-maria.github.io/Responsive-website/
+View in: https://heini-maria.github.io/Responsive-website/
 
 ## skills used:
-  *HTML
-  *CSS 
+  * HTML
+  * CSS 
 
 
 
