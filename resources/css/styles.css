@@ -4,19 +4,27 @@
 }
 html {
     font-size: 18px;
+    margin: 0;
 }
 body {
     text-align: center;
+    margin: 0;
+}
+:root {
+    --color-bg: #fff;
+    --color-dark: #072D4D;
+    --color-yellow: #FFB747;
+    --color-light-blue: #61B8FF;
 }
 h1 {
     font-family: 'Poppins', sans-serif;
-    font-size: 3rem;
-    color: #FFB747;
+    font-size: 3.2rem;
+    color: var(--color-yellow);
 }
 h2 {
     font-family: 'Raleway', sans-serif;
-    font-size: 2.5rem;
-    color:#072D4D;
+    font-size: 3rem;
+    color: var(--color-dark);
 }
 h3, figcaption {
     font-family: 'Raleway', sans-serif;
@@ -24,10 +32,10 @@ h3, figcaption {
 }
 p {
     font-family: 'Roboto Slab', serif;
-    font-size: 1.2rem;
+    font-size: 1.5rem;
 }
 li {
-    font-size: 1.4rem;
+    font-size: 1.6rem;
 }
 
 .header-content {
@@ -45,7 +53,10 @@ li {
 }
 .header-content a {
     text-decoration: none;
-    color: #072D4D;
+    color: var(--color-dark);
+}
+.header-content a:hover {
+    text-decoration: underline;
 }
 .header-nav-desktop {
     display: block;
@@ -71,7 +82,7 @@ li {
     padding: 0 2rem 2rem 2rem;
 }
 .header-hero p {
-    color:white;
+    color: var(--color-bg);
     font-size: 1.4rem;
 }
 .services-content {
@@ -86,7 +97,7 @@ li {
     margin: 0 1.25rem;
 }
 .services-item img {
-    width: 200px;
+    max-width: 300px;
     height: auto;
     padding: 0.55rem;
     margin-left: auto;
@@ -100,12 +111,12 @@ li {
 }
 
 #team {
-    background-color: #FFB747;
+    background-color: var(--color-yellow);
     padding-top: 2rem;
-    color: white;
+    color: var(--color-bg);
 }
 #team h2 {
-    color: white;
+    color: var(--color-bg);
 }
 .team-content {
     display: flex;
@@ -118,24 +129,24 @@ li {
 
 }
 .team-item img {
-    width: 200px;
-    height: 150px;
+    max-width: 300px;
+    height: auto;
 }
 
 footer {
-    background-color:#61B8FF;
+    background-color: var(--color-light-blue);
     padding: 0.5rem 0;
+    color: var(--color-bg);
 }
 footer h2 {
     display: block;
-    color: white;
+    color: var(--color-bg);
 }
 footer p {
     display: flex;
     flex: 1;
     justify-content: center;
     line-height: 1rem;
-    color: white;
 }
 @media only screen and (max-width: 750px){
     .header-hero {
